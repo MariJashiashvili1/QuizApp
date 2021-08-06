@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <u><h1>My Website</h1></u>
+        <p>ეს არის საიტი ჩემს შესახებ</p>
+    <hr>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main id="main">
+        <section id="welcome" class="card">
+            <h2>ეს არის ჩემი პირველი საიტი</h2>
+            <p>ინფორმაცია საიტის შესახებ.....</p>
+            <button class="button">Read More</button>
+        </section>
+        <hr>
+         <u><h1>Blog</h1></u>
+        <section id="blog">
+            <h1>Blog</h1>
+            <article id="post">
+                <h2>Post1</h2>
+                <p>ინფორმაცია პოსტის შესახებ......</p>
+            </article>
+            <article class="post">
+                <h1>Post2</h1>
+                <p>ინფორმაცია პოსტის შესახებ......</p>
+            </article>
+        </section>
+        <hr>
+        <u><h1>My info</h1></u>
+        <section id="info">
+            <form action="process.php">
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="lastname">LastName</label><br>
+                    <input type="text" id="lastname" name="lastname">
+                </div>
+                <div>
+                    <label for="age">Age</label><br>
+                    <input type="number" name="age" id="age">
+                </div>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="enter an email">
+                </div>
+                <div>
+                    <label for="address">Address</label><br>
+                    <input type="text" id="address" name="address">
+                </div>
+                <div>
+                    <label for="tel">Telephone Number</label><br>
+                    <input type="tel" name="tel" id="tel">
+                </div>
+                <div>
+                    <label for="birthdate">Birthdate</label><br>
+                    <input type="date" name="birthdate" id="birthdate">
+                </div>
+                <div>
+                    <u><h1>Favourite Sports</h1></u>
+                    <label for="membership">I Like...</label>
+                    <input type="checkbox" name="likes" value="bike" id="likes"> Bike
+                    <input type="checkbox" name="likes" value="car" id="likes"> Car
+                    <input type="checkbox" name="likes" value="boat" id="likes"> Boat
+                </div>
+            </form>
+        </section>
+        <hr>
+        <section id="contact">
+            <u><h1>Contact</h1></u>
+        <ul>
+            <li><strong>Address:</strong> 50 Main st, Boston MA</li>
+            <li><strong>Phone:</strong> (555) 555-5555</li>
+            <li><strong>Email:</strong> me@somethingcool.come</li>
+        </ul>
+        </section>
+        <hr>
+    </main>
+    <hr>
+    <footer id="footer">
+        <p>copyright &copy; MyWebsite 2020</p>
+    </footer>
+</body>
+</html>
